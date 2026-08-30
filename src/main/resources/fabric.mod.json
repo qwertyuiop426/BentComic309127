@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "lodmod",
+  "version": "1.0.0",
+  "name": "Mobile LOD",
+  "description": "LOD-рендеринг для мобильных устройств (Fabric 1.21.1)",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.lodmod.LodModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1"
+  }
+}
